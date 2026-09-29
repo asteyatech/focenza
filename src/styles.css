@@ -696,3 +696,71 @@ code { color: #abcaff; font: 9px ui-monospace, Consolas, monospace; background: 
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { scroll-behavior: auto !important; animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; }
 }
+
+/* Keep supporting copy comfortably readable across every page. */
+.nav-link { font-size: 13px; }
+.button { font-size: 13px; }
+.nav-install { font-size: 12px; }
+.eyebrow { font-size: 10px; }
+.hero-trust { font-size: 11px; }
+.fine-print, .visual-label, .footer-column > a, .footer-placeholder { font-size: 10px; }
+.section-heading p, .guide-heading p, .page-intro p { font-size: 14px; }
+.contrast-card p,
+.feature-card p,
+.step-card p,
+.preview-card-copy p,
+.audience-card p,
+.journey-text p,
+.install-step-copy p,
+.setup-card p,
+.troubleshoot p,
+.about-copy p,
+.about-principles p,
+.faq-answer p,
+.policy-section p,
+.changelog-empty p,
+.roadmap-card p,
+.roadmap-empty p,
+.roadmap-note p,
+.support-card-intro { font-size: 12px; }
+.challenge-list span, .solution-pills span { font-size: 10px; }
+.feature-card h3, .step-card h3, .preview-card-copy h3, .audience-card h3,
+.setup-card h3, .support-card-heading h2, .faq-side-note h3 { font-size: 14px; }
+.card-link, .text-link, .faq-side-note > a, .setup-card > a { font-size: 11px; }
+.footer-copy, .footer-tagline, .footer-note, .footer-column h3 { font-size: 11px; }
+.faq-question { font-size: 12px; }
+.support-form label { font-size: 11px; }
+.support-form input, .support-form textarea, .support-form select { font-size: 12px; }
+.support-form > .button { font-size: 11px; }
+.form-feedback, .support-footnote, .demo-banner p, .privacy-warning p { font-size: 10px; }
+.policy-section h2, .roadmap-card h3, .changelog-placeholder h3 { font-size: 14px; }
+.faq-disclaimer, .privacy-aside p, .privacy-aside small { font-size: 10px; }
+
+@media (max-width: 540px) {
+  .nav-link { font-size: 13px; }
+  .hero-trust { font-size: 10px; }
+  .fine-print { font-size: 9px; }
+  .section-heading p, .guide-heading p, .page-intro p { font-size: 12px; }
+  .contrast-card p,
+  .feature-card p,
+  .step-card p,
+  .preview-card-copy p,
+  .audience-card p,
+  .journey-text p,
+  .install-step-copy p,
+  .setup-card p,
+  .troubleshoot p,
+  .about-copy p,
+  .about-principles p,
+  .faq-answer p,
+  .policy-section p,
+  .changelog-empty p,
+  .roadmap-card p,
+  .roadmap-empty p,
+  .roadmap-note p,
+  .support-card-intro { font-size: 11px; }
+  .feature-card h3, .step-card h3, .preview-card-copy h3, .audience-card h3,
+  .setup-card h3, .support-card-heading h2, .faq-side-note h3 { font-size: 13px; }
+  .footer-copy, .footer-tagline, .footer-column > a, .footer-placeholder { font-size: 10px; }
+  .faq-question { font-size: 11px; }
+}
